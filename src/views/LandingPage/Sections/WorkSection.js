@@ -22,7 +22,7 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Sobre meu e-book</h2>
           <h4 className={classes.description}>
-            Este e-book foi pensado para os que querem adentrar na profissão de
+            Meu e-book foi pensado para os que querem adentrar na profissão de
             cozinheiro. 👨🏻‍🍳 Um manual básico para alertar como funciona o dia a
             dia de uma cozinha profissional, situações que temos que lidar e o
             essencial que precisamos saber para começar. 🔪Deixando claro que
