@@ -35,11 +35,7 @@ export default function LandingPage(props) {
         color='transparent'
         routes={dashboardRoutes}
         rightLinks={<HeaderLinks />}
-        fixed
-        changeColorOnScroll={{
-          height: 400,
-          color: 'white',
-        }}
+        absolute
         {...rest}
       />
       <Parallax filter image={require('assets/img/bg-gastroeduka.jpg')}>
