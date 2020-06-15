@@ -36,7 +36,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>
-                Escola de gastronomia Daniel Bueno
+                Escola de Gastronomia Daniel Bueno
               </h1>
               <h4>
                 Cozinhar é maravilhoso e todo mundo sabe 🥰. Com esse ebook você
