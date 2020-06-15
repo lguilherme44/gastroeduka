@@ -16,7 +16,7 @@ import CardFooter from 'components/Card/CardFooter.js';
 
 import styles from 'assets/jss/material-kit-react/views/landingPageSections/teamStyle.js';
 
-import team1 from 'assets/img/danielfbueno.jpeg';
+import team1 from 'assets/img/danielfbueno.jpg';
 
 const useStyles = makeStyles(styles);
 
@@ -43,7 +43,7 @@ export default function TeamSection() {
                 <small className={classes.smallTitle}>Instrutor</small>
               </h4>
               <CardBody>
-                <p className={classes.description}>Descrição sobre você zé.</p>
+                <p className={classes.description}>Descrição sobre você.</p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
                 <Button
