@@ -31,6 +31,17 @@ export default function LandingPage(props) {
   const { ...rest } = props;
   return (
     <div>
+      <Header
+        color='transparent'
+        routes={dashboardRoutes}
+        rightLinks={<HeaderLinks />}
+        fixed
+        changeColorOnScroll={{
+          height: 400,
+          color: 'white',
+        }}
+        {...rest}
+      />
       <Parallax filter image={require('assets/img/bg-gastroeduka.jpg')}>
         <div className={classes.container}>
           <GridContainer>
